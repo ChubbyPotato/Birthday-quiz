@@ -32,11 +32,15 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 name=input("Hello, what is your name? ")
-month=("Hi {0}, what was the name of the month you were born in? ")
-input(month.format(name))
+month=input("Hi {0}, what was the name of the month you were born in? ".format(name))
+month = month.lower()
 year=("And what year where you born in, {0}? ")
 float(input(year.format(name)))
 day=float(input("And the day? "))
 
-if month=="October" and day==31:
-    print(
+if month== "october" and day==31:
+    print("You were born on Halloween!")
+if month== "september" and day==17:
+    print("Happy birthday!")
+else:
+    print("theres sumthing wrong")
