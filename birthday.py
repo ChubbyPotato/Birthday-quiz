@@ -34,3 +34,6 @@ Example Session
 name=input("Hello, what is your name? ")
 month=("Hi {0}, what was the name of the month you were born in? ")
 input(month.format(name))
+year=("And what year where you born in, {0}? ")
+float(input(year.format(name)))
+day=float
