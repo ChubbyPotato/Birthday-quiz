@@ -1,8 +1,8 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
-Assignment:
+Author: Suhan
+Credit: None
+Assignment: Birthday
 
 Your program will ask the user the following questions, in this order:
 
@@ -36,4 +36,4 @@ month=("Hi {0}, what was the name of the month you were born in? ")
 input(month.format(name))
 year=("And what year where you born in, {0}? ")
 float(input(year.format(name)))
-day=float
+day=float(input("And the day? "))
