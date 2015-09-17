@@ -38,4 +38,5 @@ year=("And what year where you born in, {0}? ")
 float(input(year.format(name)))
 day=float(input("And the day? "))
 
-if month==
+if month=="October" and day==31:
+    print(
