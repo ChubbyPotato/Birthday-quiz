@@ -38,8 +38,14 @@ year=("And what year where you born in, {0}? ")
 float(input(year.format(name)))
 day=float(input("And the day? "))
 
+winter=['december', 'january', 'february']
+spring=['march','april','may']
+summer=['june','july','august']
+fall=['november','september', 'october]
+
 if month== "october" and day==31:
     print("You were born on Halloween!")
-    else:
-        if month=="september" and day==18:
-            print("Happy Birthday!")
+else:
+    if month=="september" and day==18:
+        print("Happy Birthday!")
+elif month==winter
