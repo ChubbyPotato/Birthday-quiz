@@ -34,18 +34,20 @@ Example Session
 name=input("Hello, what is your name? ")
 month=input("Hi {0}, what was the name of the month you were born in? ".format(name))
 month = month.lower()
-year=("And what year where you born in, {0}? ")
-float(input(year.format(name)))
+year=int(input("And what year where you born in, {0}? ".format(name)))
 day=float(input("And the day? "))
 
 winter=['december', 'january', 'february']
 spring=['march','april','may']
 summer=['june','july','august']
-fall=['november','september', 'october]
+fall=['november','september','october']
+
+nineties=list(range(1990,1999,1))
 
 if month== "october" and day==31:
     print("You were born on Halloween!")
 else:
     if month=="september" and day==18:
         print("Happy Birthday!")
-elif month==winter
+elif month==winter and year==nineties:
+    print("{0}, you are a winter baby of the nineties".format(name))
