@@ -34,7 +34,7 @@ Example Session
 name=input("Hello, what is your name? ")
 month=input("Hi {0}, what was the name of the month you were born in? ".format(name))
 month = month.lower()
-year=int(input("And what year where you born in, {0}? ".format(name)))
+year=int(input("And what year were you born in, {0}? ".format(name)))
 day=int(input("And the day? "))
 
 winter=['december', 'january', 'february']
@@ -42,7 +42,7 @@ spring=['march','april','may']
 summer=['june','july','august']
 fall=['november','september','october']
 
-twenties=list(range(2000,2015,1))
+twenties=list(range(2000,2999,1))
 nineties=list(range(1990,1999,1))
 eighties=list(range(1980,1989,1))
 stone=list(range(0,1979,1))
