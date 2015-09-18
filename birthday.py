@@ -80,10 +80,10 @@ elif month in fall and year in eighties:
     print("{0}, you are a fall baby of the eighties.".format(name))
 
 elif month in winter and year in stone:
-    print("{0}, you are a winter baby of the stone age.".format(name))
+    print("{0}, you are a winter baby of the Stone Age.".format(name))
 elif month in spring and year in stone:
-    print("{0}, you are a spring baby of the stone age.".format(name))
+    print("{0}, you are a spring baby of the Stone Age.".format(name))
 elif month in summer and year in stone:
-    print("{0}, you are a summer baby of the stone age.".format(name))
+    print("{0}, you are a summer baby of the Stone Age.".format(name))
 elif month in fall and year in stone:
-    print("{0}, you are a fall baby of the stone age.".format(name))
+    print("{0}, you are a fall baby of the Stone Age.".format(name))
