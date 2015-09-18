@@ -50,7 +50,7 @@ stone=list(range(0,1979,1))
 if month== "october" and day==31:
     print("You were born on Halloween!")
 elif month=="september" and day==18:
-    print("Happy Birthday!")
+    print("Happy birthday!")
 
 elif month in winter and year in twenties:
     print("{0}, you are a winter baby of the two thousands.".format(name))
