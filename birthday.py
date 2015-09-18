@@ -43,11 +43,37 @@ summer=['june','july','august']
 fall=['november','september','october']
 
 nineties=list(range(1990,1999,1))
+eighties=list(range(1980,1989,1))
+stone=list(range(0,1979,1))
 
 if month== "october" and day==31:
     print("You were born on Halloween!")
-else:
-    if month=="september" and day==18:
-        print("Happy Birthday!")
-elif month==winter and year==nineties:
-    print("{0}, you are a winter baby of the nineties".format(name))
+elif month=="september" and day==18:
+    print("Happy Birthday!")
+
+elif month in winter and year in nineties:
+    print("{0}, you are a winter baby of the nineties.".format(name))
+elif month in spring and year in nineties:
+    print("{0}, you are a spring baby of the nineties.".format(name))
+elif month in summer and year in nineties:
+    print("{0}, you are a summer baby of the nineties.".format(name))
+elif month in fall and year in nineties:
+    print("{0}, you are a fall baby of the nineties.".format(name))
+
+elif month in winter and year in eighties:
+    print("{0}, you are a winter baby of the eighties.".format(name))
+elif month in spring and year in eighties:
+    print("{0}, you are a spring baby of the eighties.".format(name))
+elif month in summer and year in eighties:
+    print("{0}, you are a summer baby of the eighties.".format(name))
+elif month in fall and year in eighties:
+    print("{0}, you are a fall baby of the eighties.".format(name))
+
+elif month in winter and year in stone:
+    print("{0}, you are a winter baby of the stone age.".format(name))
+elif month in spring and year in stone:
+    print("{0}, you are a spring baby of the stone age.".format(name))
+elif month in summer and year in stone:
+    print("{0}, you are a summer baby of the stone age.".format(name))
+elif month in fall and year in stone:
+    print("{0}, you are a fall baby of the stone age.".format(name))
