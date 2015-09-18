@@ -35,7 +35,7 @@ name=input("Hello, what is your name? ")
 month=input("Hi {0}, what was the name of the month you were born in? ".format(name))
 month = month.lower()
 year=int(input("And what year where you born in, {0}? ".format(name)))
-day=float(input("And the day? "))
+day=int(input("And the day? "))
 
 winter=['december', 'january', 'february']
 spring=['march','april','may']
