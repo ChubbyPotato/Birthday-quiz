@@ -40,6 +40,6 @@ day=float(input("And the day? "))
 
 if month== "october" and day==31:
     print("You were born on Halloween!")
-if month== "september" and day==17:
-    print("Happy birthday!")
-if month
+    else:
+        if month=="september" and day==18:
+            print("Happy Birthday!")
