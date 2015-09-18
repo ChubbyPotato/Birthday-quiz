@@ -42,6 +42,7 @@ spring=['march','april','may']
 summer=['june','july','august']
 fall=['november','september','october']
 
+twenties=list(range(2000,2015,1))
 nineties=list(range(1990,1999,1))
 eighties=list(range(1980,1989,1))
 stone=list(range(0,1979,1))
@@ -50,6 +51,15 @@ if month== "october" and day==31:
     print("You were born on Halloween!")
 elif month=="september" and day==18:
     print("Happy Birthday!")
+
+elif month in winter and year in twenties:
+    print("{0}, you are a winter baby of the two thousands.".format(name))
+elif month in spring and year in twenties:
+    print("{0}, you are a spring baby of the two thousands.".format(name))
+elif month in summer and year in twenties:
+    print("{0}, you are a summer baby of the two thousands.".format(name))
+elif month in fall and year in twenties:
+    print("{0}, you are a fall baby of the two thousands.".format(name))
 
 elif month in winter and year in nineties:
     print("{0}, you are a winter baby of the nineties.".format(name))
